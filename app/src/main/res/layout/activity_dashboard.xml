@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DashboardActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/socTitle"
+        android:text="ÖNCE GÜVENLİK"
+        android:textColor="@color/purple"
+        android:layout_marginTop="40dp"
+        android:textSize="33sp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/ekipImage"
+        android:layout_width="match_parent"
+        android:layout_height="157dp"
+        android:layout_below="@+id/socTitle"
+        android:layout_marginTop="46dp"
+        android:src="@drawable/ekip" />
+
+    <ImageView
+        android:id="@+id/yonetImage"
+        android:layout_width="match_parent"
+        android:layout_height="158dp"
+        android:layout_below="@+id/ekipImage"
+        android:layout_marginTop="23dp"
+        android:src="@drawable/yonet" />
+
+    <ImageView
+        android:id="@+id/indexImage"
+        android:layout_width="match_parent"
+        android:layout_height="158dp"
+        android:layout_below="@+id/yonetImage"
+        android:layout_marginTop="23dp"
+        android:src="@drawable/index" />
+
+</RelativeLayout>
