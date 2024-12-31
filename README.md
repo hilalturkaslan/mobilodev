@@ -1,1 +1,1 @@
-this is mobil app
+this is a mobil app
